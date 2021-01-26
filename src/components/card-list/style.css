@@ -1,0 +1,24 @@
+.card-list {
+  width: 80vw;
+  max-width: 1170px;
+  margin: 3rem auto;
+  display: grid;
+  gap: 2rem;
+  text-align: center;
+  }
+
+
+  @media screen and (min-width: 800px) {
+   
+    .card-list {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+  }
+
+    @media only screen and (device-width: 768px) {
+      .card-list {
+        grid-template-columns: repeat(2, 1fr);
+      }
+     
+    }
